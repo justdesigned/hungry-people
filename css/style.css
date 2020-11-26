@@ -511,13 +511,11 @@ h2 {
     justify-content: center;
 }
 
-/* contact*/
+/* contact on grid*/
 .contact-form {
     width: 100%;
     display: grid;
     grid-gap:10px;
-
-
     grid-template-areas: 
         "a a a a b b b b c c c c"  
         "m m m m m m m m m m m m"  
@@ -526,7 +524,6 @@ h2 {
     grid-template-rows: 60px 120px 60px;
     margin-top: 32px;
 }
-
 .contact-form__item {
     
     color: rgba(51, 51, 51, 0.5);
@@ -537,16 +534,22 @@ h2 {
     /* height: 60px; */
     padding-left: 25px;
 }
-.contact-form__text-field {
+.contact-form__contact-list {
     font-size: 12px;
     color: rgba(51,51,51,0.5);
     font-weight: bold;
+    grid-area: t;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact-form__contact-list-item {
+    margin-right: 17px;
 }
 .contact-form__icons {
     color: #E8C300;
-    margin-right: 5px;
+    margin-right: 10px;
 }
-
 #name {
     grid-area: a;
 }
