@@ -323,9 +323,7 @@ h2 {
 .section {
     max-width: 1440px;
     margin: 0 auto;
-
 }
-
 .section__header {
     height: 100px;
     color: #fff;
@@ -339,7 +337,6 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
 .section__footer {
     height: 100px;
     color: rgba(51, 51, 51, 0.5);
@@ -376,7 +373,6 @@ h2 {
 .s-contact {
     padding: 100px 0 ;
 }
-
 .text-color--white {
     color: #fff;
 }
@@ -416,7 +412,7 @@ h2 {
     border-radius: 5px;
     width: 280px;
     height: 60px;
-    padding-left: 25px;
+    
 }
 
 .order-form__btn {
@@ -511,8 +507,8 @@ h2 {
     justify-content: center;
 }
 
-/* contact on grid*/
-.contact-form {
+/* contact-form on grid*/
+/* .contact-form {
     width: 100%;
     display: grid;
     grid-gap:10px;
@@ -525,13 +521,10 @@ h2 {
     margin-top: 32px;
 }
 .contact-form__item {
-    
     color: rgba(51, 51, 51, 0.5);
     background-color: #E5E5E5;
     border: none;
     border-radius: 5px;
-    /* width: 280px; */
-    /* height: 60px; */
     padding-left: 25px;
 }
 .contact-form__contact-list {
@@ -567,4 +560,81 @@ h2 {
 }
 .contact-form__btn {
     grid-area: s;
+} */
+
+/* contsct-form on flex */
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 24px;
+}
+.contact-form__item {
+    color: rgba(51, 51, 51, 0.5);
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    min-width: 420px;
+    height: 60px;
+    margin-top: 10px;
+}
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-indent: 20px;
+}
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-indent: 20px;
+}
+.contact-form__item--textarea{
+    min-width: 100%;
+    height: 120px;
+    padding-top: 20px;
+}
+.contact-form__contact-list {
+    font-size: 12px;
+    color: rgba(51,51,51,0.5);
+    font-weight: bold;
+    grid-area: t;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.contact-form__contact-list-item {
+    margin-right: 17px;
+}
+.contact-form__icons {
+    color: #E8C300;
+    margin-right: 10px;
+}
+.contact-form__btn {
+    margin-top: 10px;
+    width: 50%;
+}
+/* map */
+.map {
+    height: 475px;
+    background-image:url('/img/map-bg.png');
+}
+
+/* footer */
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__copyright {
+    color: rgba(255, 255, 255, .5);
+    font-size: 12px;
+}
+.footer__copyright span{
+    font-weight: bold;
 }
