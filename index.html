@@ -65,24 +65,22 @@
 
     <section class="section s-about">
         <div class="container">
-            <div class="content content--left">
-                <div class="content__text-field">
-                    <div class="content__title">
-                        <h2>about us</h2>
-                    </div>
+            <div class="row">
+                <div class="content">
+                    <h2 class="content__title">about us</h2>
                     <div class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
                         velit
                         maximus, molestie est a, tempor magna.</div>
-                    <div class="content__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                    <p class="content__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
                         Morbi
                         non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
                         sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
                         facilisis
-                        semper laoreet.</div>
+                        semper laoreet.</p>
                 </div>
-                <div class="content__image">
-                    <img class="content__img" src="./img/about-img.png" alt="about">
-                    <div class="content__square content__square--pos-right"></div>
+                <div class="content-image">
+                    <img class="content-image__img" src="./img/about-img.png" alt="about">
+                    <div class="content-image__square content-image__square--pos-right"></div>
                 </div>
             </div>
         </div>
@@ -90,45 +88,43 @@
     <section class="section s-team">
         <div class="container">
             <div class="section__header">OUR TEAM</div>
-            <div class="content content--reverse">
-                <div class="content__text-field text-color--white">
-                    <div class="content__title">
-                        <h2>MASTER CHEF</h2>
-                    </div>
+            <div class="row row--reverse">
+                <div class="content text-color--white">
+                    <h2 class="content__title">MASTER CHEF</h2>
                     <div class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
                         velit maximus, molestie est a, tempor magna.</div>
-                    <div class="content__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                    <p class="content__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
                         Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
                         sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
-                        facilisis semper laoreet.</div>
+                        facilisis semper laoreet.</p>
                 </div>
-                <div class="content__image">
-                    <div class="content__square content__square--pos-left"></div>
-                    <img class="content__img" src="/img/team-img.png" alt="team">
+                <div class="content-image">
+                    <div class="content-image__square content-image__square--pos-left"></div>
+                    <img class="content-image__img" src="/img/team-img.png" alt="team">
                 </div>
             </div>
         </div>
     </section>
     <section class="section s-book">
         <div class="container">
-            <div class="content">
-                <div class="content__form-wrapper">
+            <div class="row">
+                <div class="content-form-wrapper">
                     <div class="content__title">
                         <h2>book a table</h2>
                     </div>
                     <form action="#" class="order-form">
                         <input type="text" class="order-form__item" placeholder="Name">
                         <input type="text" class="order-form__item" placeholder="Email">
-                        <input type="text" class="order-form__item" placeholder="Phone">
-                        <input type="text" class="order-form__item" placeholder="People">
+                        <input type="tel" class="order-form__item" placeholder="Phone">
+                        <input type="number" class="order-form__item" placeholder="People" min="1" max="100">
                         <input type="text" class="order-form__item" placeholder="Date (mm/dd)">
-                        <input type="text" class="order-form__item" placeholder="Time">
+                        <input type="time" class="order-form__item" placeholder="Time">
                         <button class="order-form__btn btn btn--colored">Book now</button>
                     </form>
                 </div>
-                <div class="content__image image">
-                    <img src="/img/book-img.png" alt="" class="content__img">
-                    <div class="content__square content__square--pos-right content__square--small"></div>
+                <div class="content-image">
+                    <img src="/img/book-img.png" alt="" class="content-image__img">
+                    <div class="content-image__square content-image__square--pos-right content__square--small"></div>
                 </div>
             </div>
             <div class="section__footer">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458
@@ -138,8 +134,8 @@
     <section class="section s-spec">
         <div class="container">
             <div class="section__header">specialties</div>
-            <div class="content content--reverse">
-                <div class="content__text-field text-color--white">
+            <div class="row row--reverse">
+                <div class="content text-color--white">
                     <div class="content__title">
                         <h2>chocolate pancakes</h2>
                     </div>
@@ -152,9 +148,9 @@
                         facilisis semper laoreet.
                     </div>
                 </div>
-                <div class="content__image">
-                    <div class="content__square content__square--pos-left"></div>
-                    <img src="/img/spec-img.png" alt="" class="content__img">
+                <div class="content-image">
+                    <div class="content-image__square content-image__square--pos-left"></div>
+                    <img src="/img/spec-img.png" alt="" class="content-image__img">
                 </div>
             </div>
             <div class="section__footer">
@@ -168,273 +164,275 @@
     </section>
     <section class="section s-menu">
         <div class="container">
-            <div class="content__wrapper--full">
-                <div class="content__title">
-                    <h2>DELICIOUS MENU</h2>
-                </div>
-                <div class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                    </br>at velit maximus, molestie est a, tempor magna.
-                </div>
-                <ul class="content__menu">
-                    <li class="content__menu-item">SOUPE</li>
-                    <li class="content__menu-item">PIZZA</li>
-                    <li class="content__menu-item">PASTA</li>
-                    <li class="content__menu-item">DESERT</li>
-                    <li class="content__menu-item">WINE</li>
-                    <li class="content__menu-item">BEER</li>
-                    <li class="content__menu-item">DRINKS</li>
-                </ul>
-                <div class="carte">
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
+            <div class="row">
+                <div class="content--full-width">
+                    <div class="content__title">
+                        <h2>DELICIOUS MENU</h2>
                     </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
+                    <div class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                        </br>at velit maximus, molestie est a, tempor magna.
                     </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                    <ul class="content__menu">
+                        <li class="content__menu-item">SOUPE</li>
+                        <li class="content__menu-item">PIZZA</li>
+                        <li class="content__menu-item">PASTA</li>
+                        <li class="content__menu-item">DESERT</li>
+                        <li class="content__menu-item">WINE</li>
+                        <li class="content__menu-item">BEER</li>
+                        <li class="content__menu-item">DRINKS</li>
+                    </ul>
+                    <div class="carte">
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
-                        </div>
-                    </div>
-                    <div class="carte__item">
-                        <div class="carte__title">
-                            PIZZA QUATRO STAGIONI
-                            <span class="carte__price">55,68 USD</span>
-                        </div>
-                        <!-- <div class="carte__price">
-                                55,68 USD
-                            </div> -->
-                        <div class="carte__descr">
-                            Integer ullamcorper neque eu purus euismod
+                        <div class="carte__item">
+                            <div class="carte__title">
+                                PIZZA QUATRO STAGIONI
+                                <span class="carte__price">55,68 USD</span>
+                            </div>
+                            <!-- <div class="carte__price">
+                                    55,68 USD
+                                </div> -->
+                            <div class="carte__descr">
+                                Integer ullamcorper neque eu purus euismod
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -446,20 +444,20 @@
             <div class="section__header">
                 PRIVATE EVEnTS
             </div>
-            <div class="content">
-                <div class="content__image">
-                    <div class="content__square content__square--pos-left"></div>
-                    <img src="/img/events1-img.png" alt="" class="content__img">
+            <div class="row">
+                <div class="content-image">
+                    <div class="content-image__square content-image__square--pos-left"></div>
+                    <img src="/img/events1-img.png" alt="" class="content-image__img">
                     <!-- <div class="image__title image__title--pos-right">
                         <p class="image__title-text">weddings</p>
                     </div> -->
                 </div>
-                <div class="content__image">
+                <div class="content-image">
                     <!-- <div class="image__title image__title--pos-left">
                         <p class="image__title-text rotate">corporate parties</p>
                     </div> -->
-                    <img src="/img/events2-img.png" alt="" class="content__img">
-                    <div class="content__square content__square--pos-right"></div>
+                    <img src="/img/events2-img.png" alt="" class="content-image__img">
+                    <div class="content-image__square content-image__square--pos-right"></div>
                 </div>
             </div>
             <div class="section__footer text-color--white-opacity">
@@ -479,7 +477,7 @@
     </section>
     <section class="section s-contact">
         <div class="container">
-            <div class="content__wrapper--full">
+            <div class="content--full-width">
                 <div class="content__title">
                     <h2>CONTACT</h2>
                 </div>
