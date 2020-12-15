@@ -60,11 +60,21 @@ h3 {
 .header {
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url('/img/header-bg.jpg');
-    background-position: top;
+    /* background-image: url('/img/header-bg.jpg');
+    background-position: top; */
     position: relative;
 }
-
+/* .header__bg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+} */
+.h-slider{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    max-width: 1440px;
+}
 /* Navigation Menu */
 .nav__menu-list {
     display: flex;
@@ -199,6 +209,7 @@ h3 {
     left: 83px;
     transform: rotate(-90deg) translate(-122px, -122px);
     display: flex;
+    z-index: 2;
 }
 
 /* social */

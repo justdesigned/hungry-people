@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hungry people</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -16,7 +17,15 @@
 
 <body>
     <header class="header">
+        <div class="h-slider">
+            <img class="header__bg" src="/img/header-bg.jpg">
+            <img class="header__bg" src="/img/header-bg.jpg">
+            <img class="header__bg" src="/img/header-bg.jpg">
+            <img class="header__bg" src="/img/header-bg.jpg">
+        </div>
+        
         <div class="container">
+            
             <nav class="nav">
                 <ul class="nav__menu-list">
                     <li class="nav__menu-item">Home</li>
@@ -456,14 +465,18 @@
         </div>
     </section>
     <section class="section s-slider">
-        <div class="container">
+        
             <div class="slider">
                 <img src="/img/slider-img1.png" alt="" class="slider__item">
                 <img src="/img/slider-img2.png" alt="" class="slider__item">
                 <img src="/img/slider-img3.png" alt="" class="slider__item">
                 <img src="/img/slider-img4.png" alt="" class="slider__item">
+                <img src="/img/slider-img1.png" alt="" class="slider__item">
+                <img src="/img/slider-img2.png" alt="" class="slider__item">
+                <img src="/img/slider-img3.png" alt="" class="slider__item">
+                <img src="/img/slider-img4.png" alt="" class="slider__item">
             </div>
-        </div>
+        
     </section>
     <section class="section s-contact">
         <div class="container">
@@ -505,6 +518,9 @@
         <div class="footer__copyright">© Copyright <span>Mindblister</span>  2019</div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
 
